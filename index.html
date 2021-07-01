@@ -5,56 +5,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+	<script src="js/Main.js"></script>
 	<title>Curso SQL</title>
 </head>
 <body>
 	<h1>Comandos sql</h1>
-	<hr><h5>ROUND</h5>
-	<a><img src="img/ROUND.png"></a>
-	<hr><h5>NOW</h5>
-	<a><img src="img/NOW.png"></a>
-	<hr><h5>DATE_FORMAT</h5>
-	<a><img src="img/DATE_FORMAT.png"></a>
-	<hr><h5>DATEDIFF</h5>
-	<a><img src="img/DATEDIFF.png"></a>
-	<hr><h5>UNION</h5>
-	<a><img src="img/UNION.png"></a>
-	<hr><h5>UNION ALL</h5>
-	<a><img src="img/UNION ALL.png"></a>
-	<hr><h5>INNER JOIN</h5>
-	<a><img src="img/INNER JOIN.png"></a>
-	<hr><h5>LEFT JOIN</h5>
-	<a><img src="img/LEFT JOIN.png"></a>
-	<hr><h5>SUBCONSULTA ESCALONADA</h5>
-	<a><img src="img/SUBCONSULTA.png"></a>
-	<hr><h5>SUBCONSULTA LISTA</h5>
-	<a><img src="img/SUBCONSULTA LISTA.png"></a>
-	<hr><h5>SUBCONSULTA IN</h5>
-	<a><img src="img/SUBCONSULTA IN.png"></a>
-	<hr><h5>SUBCONSULTA NOT IN</h5>
-	<a><img src="img/SUBCONSULTA NOT IN.png"></a>
-	<hr><h5>UPDATE</h5>
-	<a><img src="img/UPDATE.png"></a>
-	<a><img src="img/UPDATE2.png"></a>
-	<hr><h5>CREATE</h5>
-	<a><img src="img/CREATE.png"></a>
-	<hr><h5>DELETE</h5>
-	<a><img src="img/DELETE.png"></a>
-	<hr><h5>INSERT INTO</h5>
-	<a><img src="img/INSERT INTO.png"></a>
-	<a><img src="img/INSERT INTO2.png"></a>
-	<hr><h5>ROUND</h5>
-	<a><img src="img/ROUND.png"></a>
+	<button onclick="showHide1()">ROUND</button><br>
+	<a><img id="ROUND" style="display: none;" src="img/ROUND.png"></a>
+	<button onclick="showHide2()">NOW</button><br>
+	<a><img id="NOW" style="display: none;" src="img/NOW.png"></a>
+	<button onclick="showHide3()">DATE_FORMAT</button><br>
+	<a><img id="DATE_FORMAT" style="display: none;" src="img/DATE_FORMAT.png"></a>
+	<button onclick="showHide4()">DATEDIFF</button><br>
+	<a><img id="DATEDIFF" style="display: none;" src="img/DATEDIFF.png"></a>
+	<button onclick="showHide5()">UNION</button><br>
+	<a><img id="UNION" style="display: none;" src="img/UNION.png"></a>
+	<button onclick="showHide6()">UNION ALL</button><br>
+	<a><img id="UNION_ALL" style="display: none;" src="img/UNION ALL.png"></a>
+	<button onclick="showHide7()">INNER JOIN</button><br>
+	<a><img id="INNER_JOIN" style="display: none;" src="img/INNER JOIN.png"></a>
+	<button onclick="showHide8()">LEFT JOIN</button><br>
+	<a><img id="LEFT_JOIN" style="display: none;" src="img/LEFT JOIN.png"></a>
+	<button onclick="showHide9()">SUBCONSULTA ESCALONADA</button><br>
+	<a><img id="SUBCONSULTA_ESCALONADA" style="display: none;" src="img/SUBCONSULTA.png"></a>
+	<button onclick="showHide10()">SUBCONSULTA LISTA</button><br>
+	<a><img id="SUBCONSULTA_LISTA" style="display: none;" src="img/SUBCONSULTA LISTA.png"></a>
+	<button onclick="showHide11()">SUBCONSULTA IN</button><br>
+	<a><img id="SUBCONSULTA_IN" style="display: none;" src="img/SUBCONSULTA IN.png"></a>
+	<button onclick="showHide12()">SUBCONSULTA NOT IN</button><br>
+	<a><img id="SUBCONSULTA_NOT_IN" style="display: none;" src="img/SUBCONSULTA NOT IN.png"></a>
+	<button onclick="showHide13()">UPDATE</button><br>
+	<a><img id="UPDATE" style="display: none;" src="img/UPDATE.png" ></a>
+	<a><img id="UPDATE1" style="display: none;" src="img/UPDATE2.png"></a>
+	<button onclick="showHide14()">CREATE</button><br>
+	<img id="CREATE" style="display: none;" src="img/CREATE.png"></a>
+	<button onclick="showHide15()">DELETE</button><br>
+	<img id="DELETE" style="display: none;" src="img/DELETE.png"></a>
+	<button onclick="showHide16()">INSERT INTO</button><br>
+	<a><img id="INSERT_INTO" style="display: none;" src="img/INSERT INTO.png"></a>
+	<a><img id="INSERT_INTO" style="display: none;" src="img/INSERT INTO2.png"></a>
+	<button onclick="showHide17()">ROUND</button><br>
+	<a><img id="ROUND" style="display: none;" src="img/ROUND.png"></a>
 	<h1>Conectar tablas sql</h1>
-	<hr><h5>Paso #1</h5>
-	<a><img src="img/CONECTAR TABLAS 1.png"></a>
-	<hr><h5>Paso #2</h5>
-	<a><img src="img/CONECTAR TABLAS 2.png"></a>
-	<hr><h5>Paso #3</h5>
-	<a><img src="img/CONECTAR TABLAS 3.png"></a>
-	<hr><h5>Paso #4</h5>
-	<a><img src="img/CONECTAR TABLAS 4.png"></a>
-	<hr><h5>Paso #4</h5>
-	<a><img src="img/CONECTAR TABLAS 5.png"></a>
+	<button onclick="showHide95()">PASO #1</button><br>
+	<a><img id="PASO1" style="display: none;" src="img/CONECTAR TABLAS 1.png"></a>
+	<button onclick="showHide96()">PASO #2</button><br>
+	<a><img id="PASO2" style="display: none;" src="img/CONECTAR TABLAS 2.png"></a>
+	<button onclick="showHide97()">PASO #3</button><br>
+	<a><img id="PASO3" style="display: none;" src="img/CONECTAR TABLAS 3.png"></a>
+	<button onclick="showHide98()">PASO #4</button><br>
+	<a><img id="PASO4" style="display: none;" src="img/CONECTAR TABLAS 4.png"></a>
+	<button onclick="showHide99()">PASO #5</button><br>
+	<a><img id="PASO5" style="display: none;" src="img/CONECTAR TABLAS 5.png"></a>
 </body>
 </html>
