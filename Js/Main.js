@@ -16,10 +16,11 @@ function showHide15() { var oImageDiv = document.getElementById('DELETE'); oImag
 function showHide16() { var oImageDiv = document.getElementById('INSERT_INTO'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none'; var oImageDiv = document.getElementById('INSERT_INTO2'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none'  };
 function showHide17() { var oImageDiv = document.getElementById('DROP'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
 function showHide18() { var oImageDiv = document.getElementById('ALTER'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none'; var oImageDiv = document.getElementById('ALTER2'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
-function showHide19() { var oImageDiv = document.getElementById('DROP'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
-function showHide20() { var oImageDiv = document.getElementById('DROP'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
-function showHide21() { var oImageDiv = document.getElementById('DROP'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
-function showHide22() { var oImageDiv = document.getElementById('DROP'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
+function showHide19() { var oImageDiv = document.getElementById('DOBLE_PRIMARY_KEY'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
+function showHide20() { var oImageDiv = document.getElementById('INDEX'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
+function showHide21() { var oImageDiv = document.getElementById('INDEX2'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
+function showHide22() { var oImageDiv = document.getElementById('INDEX3'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
+function showHide22() { var oImageDiv = document.getElementById('DROP_INDEX'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
 function showHide95() { var oImageDiv = document.getElementById('PASO1'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
 function showHide96() { var oImageDiv = document.getElementById('PASO2'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
 function showHide97() { var oImageDiv = document.getElementById('PASO3'); oImageDiv.style.display = (oImageDiv.style.display == 'none') ? 'inline' : 'none' };
