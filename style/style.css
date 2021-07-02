@@ -5,14 +5,31 @@
 	background: lightblue;
 }
 
+button{
+	background: rgb(208, 248, 148);
+	border-radius: 50px;
+	padding: 5px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+button:hover{
+	background: rgb(164, 197, 115);
+}
 
 
-h1, h5{
+img{
+	background: rgb(162, 184, 192);
+	padding: 10px 100px;
+}
+
+h1, h3{
 	text-align: center;
 }
 
-h5{
-	padding: 10px 0px;
+h3{
+	padding: 30px 0px;
 }
 
 a{
@@ -20,5 +37,6 @@ a{
 	justify-content: center;
 	padding-bottom: 10px;
 }
+
 
 
